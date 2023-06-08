@@ -1,7 +1,7 @@
-function AnimalShow(){
+function AnimalShow(props){
     return (
         <div>
-            
+           {props.type}
         </div>
     );
 };
